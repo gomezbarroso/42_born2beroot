@@ -1,7 +1,7 @@
 #FINAL VERSION:
 
 # OS Architecture and Kernel version:
-ARCHITECTURE=$(uname -srvmo)
+ARCHITECTURE=$(uname -a)
 
 # Number of physical CPUs:
 PHYSICAL_CPUS=$(grep 'physical id' /proc/cpuinfo | wc -l)
